@@ -66,7 +66,7 @@ services:
             - $PWD/mysql/logs:/data/mysql/logs  # 日志
 #             - ./mysql/my.cnf:/etc/my.cnf
         restart: always
-        platform: linux/x86_64
+        platform: linux/x86_64 #针对mac M1芯片
         # 环境变量
         environment:
             - TZ=Asia/Shanghai # 设置时区
