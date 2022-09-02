@@ -1,0 +1,305 @@
+2022/09/02 18:57:43 [error] 30#30: *1 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.19.0.1, server: localhost, request: "GET /dv.php HTTP/1.1", upstream: "fastcgi://172.19.0.2:9000", host: "localhost"
+2022/09/02 18:57:47 [error] 30#30: *1 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.19.0.1, server: localhost, request: "GET /db.php HTTP/1.1", upstream: "fastcgi://172.19.0.2:9000", host: "localhost"
+2022/09/02 18:57:51 [error] 30#30: *1 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.19.0.1, server: localhost, request: "GET /db.php HTTP/1.1", upstream: "fastcgi://172.19.0.2:9000", host: "localhost"
+2022/09/02 18:57:53 [error] 30#30: *1 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.19.0.1, server: localhost, request: "GET /db.php HTTP/1.1", upstream: "fastcgi://172.19.0.2:9000", host: "localhost"
+2022/09/02 18:57:53 [error] 30#30: *1 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.19.0.1, server: localhost, request: "GET /db.php HTTP/1.1", upstream: "fastcgi://172.19.0.2:9000", host: "localhost"
+2022/09/02 18:57:53 [error] 30#30: *1 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.19.0.1, server: localhost, request: "GET /db.php HTTP/1.1", upstream: "fastcgi://172.19.0.2:9000", host: "localhost"
+2022/09/02 18:57:54 [error] 30#30: *1 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.19.0.1, server: localhost, request: "GET /db.php HTTP/1.1", upstream: "fastcgi://172.19.0.2:9000", host: "localhost"
+2022/09/02 18:57:54 [error] 30#30: *1 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.19.0.1, server: localhost, request: "GET /db.php HTTP/1.1", upstream: "fastcgi://172.19.0.2:9000", host: "localhost"
+2022/09/02 18:58:03 [error] 30#30: *1 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.19.0.1, server: localhost, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://172.19.0.2:9000", host: "localhost"
+2022/09/02 18:58:07 [error] 30#30: *1 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.19.0.1, server: localhost, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://172.19.0.2:9000", host: "localhost"
+2022/09/02 18:58:20 [error] 30#30: *1 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.19.0.1, server: localhost, request: "GET /redis.php HTTP/1.1", upstream: "fastcgi://172.19.0.2:9000", host: "localhost"
+2022/09/02 18:58:25 [error] 30#30: *1 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.19.0.1, server: localhost, request: "GET /redis.php HTTP/1.1", upstream: "fastcgi://172.19.0.2:9000", host: "localhost"
+2022/09/02 18:58:41 [error] 30#30: *1 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.19.0.1, server: localhost, request: "GET /db.php HTTP/1.1", upstream: "fastcgi://172.19.0.2:9000", host: "localhost"
+2022/09/02 20:10:34 [error] 30#30: *1 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.19.0.1, server: localhost, request: "GET /db.php HTTP/1.1", upstream: "fastcgi://172.19.0.2:9000", host: "localhost"
+2022/09/02 20:10:36 [error] 30#30: *1 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.19.0.1, server: localhost, request: "GET /db.php HTTP/1.1", upstream: "fastcgi://172.19.0.2:9000", host: "localhost"
+2022/09/02 20:10:37 [error] 30#30: *1 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.19.0.1, server: localhost, request: "GET /db.php HTTP/1.1", upstream: "fastcgi://172.19.0.2:9000", host: "localhost"
+2022/09/02 20:10:38 [error] 30#30: *1 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.19.0.1, server: localhost, request: "GET /db.php HTTP/1.1", upstream: "fastcgi://172.19.0.2:9000", host: "localhost"
+2022/09/02 20:13:46 [error] 30#30: *6 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.19.0.1, server: localhost, request: "GET /db.php HTTP/1.1", upstream: "fastcgi://172.19.0.2:9000", host: "localhost"
+2022/09/02 20:13:47 [error] 30#30: *6 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.19.0.1, server: localhost, request: "GET /db.php HTTP/1.1", upstream: "fastcgi://172.19.0.2:9000", host: "localhost"
+2022/09/02 20:13:56 [error] 30#30: *6 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.19.0.1, server: localhost, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://172.19.0.2:9000", host: "localhost"
+2022/09/02 20:14:52 [error] 30#30: *1 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught RedisException: Connection refused in /var/www/html/redis.php:14
+Stack trace:
+#0 /var/www/html/redis.php(14): Redis->connect('redis', 6379)
+#1 {main}
+  thrown in /var/www/html/redis.php on line 14" while reading response header from upstream, client: 172.19.0.1, server: localhost, request: "GET /redis.php HTTP/1.1", upstream: "fastcgi://172.19.0.2:9000", host: "localhost"
+2022/09/02 20:14:54 [error] 30#30: *1 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught RedisException: Connection refused in /var/www/html/redis.php:14
+Stack trace:
+#0 /var/www/html/redis.php(14): Redis->connect('redis', 6379)
+#1 {main}
+  thrown in /var/www/html/redis.php on line 14" while reading response header from upstream, client: 172.19.0.1, server: localhost, request: "GET /redis.php HTTP/1.1", upstream: "fastcgi://172.19.0.2:9000", host: "localhost"
+2022/09/02 20:14:55 [error] 30#30: *1 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught RedisException: Connection refused in /var/www/html/redis.php:14
+Stack trace:
+#0 /var/www/html/redis.php(14): Redis->connect('redis', 6379)
+#1 {main}
+  thrown in /var/www/html/redis.php on line 14" while reading response header from upstream, client: 172.19.0.1, server: localhost, request: "GET /redis.php HTTP/1.1", upstream: "fastcgi://172.19.0.2:9000", host: "localhost"
+2022/09/02 20:16:58 [error] 30#30: *6 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught RedisException: Connection refused in /var/www/html/redis.php:14
+Stack trace:
+#0 /var/www/html/redis.php(14): Redis->connect('redis', 6379)
+#1 {main}
+  thrown in /var/www/html/redis.php on line 14" while reading response header from upstream, client: 172.19.0.1, server: localhost, request: "GET /redis.php HTTP/1.1", upstream: "fastcgi://172.19.0.2:9000", host: "localhost"
+2022/09/02 20:17:00 [error] 30#30: *6 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught RedisException: Connection refused in /var/www/html/redis.php:14
+Stack trace:
+#0 /var/www/html/redis.php(14): Redis->connect('redis', 6379)
+#1 {main}
+  thrown in /var/www/html/redis.php on line 14" while reading response header from upstream, client: 172.19.0.1, server: localhost, request: "GET /redis.php HTTP/1.1", upstream: "fastcgi://172.19.0.2:9000", host: "localhost"
+2022/09/02 20:25:06 [error] 30#30: *9 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught RedisException: Connection refused in /var/www/html/redis.php:14
+Stack trace:
+#0 /var/www/html/redis.php(14): Redis->connect('redis', 6379)
+#1 {main}
+  thrown in /var/www/html/redis.php on line 14" while reading response header from upstream, client: 172.19.0.1, server: localhost, request: "GET /redis.php HTTP/1.1", upstream: "fastcgi://172.19.0.2:9000", host: "localhost"
+2022/09/02 20:25:50 [error] 30#30: *9 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught RedisException: Connection refused in /var/www/html/redis.php:14
+Stack trace:
+#0 /var/www/html/redis.php(14): Redis->connect('redis', 6379)
+#1 {main}
+  thrown in /var/www/html/redis.php on line 14" while reading response header from upstream, client: 172.19.0.1, server: localhost, request: "GET /redis.php HTTP/1.1", upstream: "fastcgi://172.19.0.2:9000", host: "localhost"
+2022/09/02 20:25:51 [error] 30#30: *9 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught RedisException: Connection refused in /var/www/html/redis.php:14
+Stack trace:
+#0 /var/www/html/redis.php(14): Redis->connect('redis', 6379)
+#1 {main}
+  thrown in /var/www/html/redis.php on line 14" while reading response header from upstream, client: 172.19.0.1, server: localhost, request: "GET /redis.php HTTP/1.1", upstream: "fastcgi://172.19.0.2:9000", host: "localhost"
+2022/09/02 20:25:52 [error] 30#30: *9 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught RedisException: Connection refused in /var/www/html/redis.php:14
+Stack trace:
+#0 /var/www/html/redis.php(14): Redis->connect('redis', 6379)
+#1 {main}
+  thrown in /var/www/html/redis.php on line 14" while reading response header from upstream, client: 172.19.0.1, server: localhost, request: "GET /redis.php HTTP/1.1", upstream: "fastcgi://172.19.0.2:9000", host: "localhost"
+2022/09/02 20:25:52 [error] 30#30: *9 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught RedisException: Connection refused in /var/www/html/redis.php:14
+Stack trace:
+#0 /var/www/html/redis.php(14): Redis->connect('redis', 6379)
+#1 {main}
+  thrown in /var/www/html/redis.php on line 14" while reading response header from upstream, client: 172.19.0.1, server: localhost, request: "GET /redis.php HTTP/1.1", upstream: "fastcgi://172.19.0.2:9000", host: "localhost"
+2022/09/02 20:25:53 [error] 30#30: *9 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught RedisException: Connection refused in /var/www/html/redis.php:14
+Stack trace:
+#0 /var/www/html/redis.php(14): Redis->connect('redis', 6379)
+#1 {main}
+  thrown in /var/www/html/redis.php on line 14" while reading response header from upstream, client: 172.19.0.1, server: localhost, request: "GET /redis.php HTTP/1.1", upstream: "fastcgi://172.19.0.2:9000", host: "localhost"
+2022/09/02 20:25:53 [error] 30#30: *9 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught RedisException: Connection refused in /var/www/html/redis.php:14
+Stack trace:
+#0 /var/www/html/redis.php(14): Redis->connect('redis', 6379)
+#1 {main}
+  thrown in /var/www/html/redis.php on line 14" while reading response header from upstream, client: 172.19.0.1, server: localhost, request: "GET /redis.php HTTP/1.1", upstream: "fastcgi://172.19.0.2:9000", host: "localhost"
+2022/09/02 20:25:53 [error] 30#30: *9 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught RedisException: Connection refused in /var/www/html/redis.php:14
+Stack trace:
+#0 /var/www/html/redis.php(14): Redis->connect('redis', 6379)
+#1 {main}
+  thrown in /var/www/html/redis.php on line 14" while reading response header from upstream, client: 172.19.0.1, server: localhost, request: "GET /redis.php HTTP/1.1", upstream: "fastcgi://172.19.0.2:9000", host: "localhost"
+2022/09/02 20:25:53 [error] 30#30: *9 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught RedisException: Connection refused in /var/www/html/redis.php:14
+Stack trace:
+#0 /var/www/html/redis.php(14): Redis->connect('redis', 6379)
+#1 {main}
+  thrown in /var/www/html/redis.php on line 14" while reading response header from upstream, client: 172.19.0.1, server: localhost, request: "GET /redis.php HTTP/1.1", upstream: "fastcgi://172.19.0.2:9000", host: "localhost"
+2022/09/02 20:25:53 [error] 30#30: *9 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught RedisException: Connection refused in /var/www/html/redis.php:14
+Stack trace:
+#0 /var/www/html/redis.php(14): Redis->connect('redis', 6379)
+#1 {main}
+  thrown in /var/www/html/redis.php on line 14" while reading response header from upstream, client: 172.19.0.1, server: localhost, request: "GET /redis.php HTTP/1.1", upstream: "fastcgi://172.19.0.2:9000", host: "localhost"
+2022/09/02 20:25:53 [error] 30#30: *9 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught RedisException: Connection refused in /var/www/html/redis.php:14
+Stack trace:
+#0 /var/www/html/redis.php(14): Redis->connect('redis', 6379)
+#1 {main}
+  thrown in /var/www/html/redis.php on line 14" while reading response header from upstream, client: 172.19.0.1, server: localhost, request: "GET /redis.php HTTP/1.1", upstream: "fastcgi://172.19.0.2:9000", host: "localhost"
+2022/09/02 20:25:54 [error] 30#30: *9 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught RedisException: Connection refused in /var/www/html/redis.php:14
+Stack trace:
+#0 /var/www/html/redis.php(14): Redis->connect('redis', 6379)
+#1 {main}
+  thrown in /var/www/html/redis.php on line 14" while reading response header from upstream, client: 172.19.0.1, server: localhost, request: "GET /redis.php HTTP/1.1", upstream: "fastcgi://172.19.0.2:9000", host: "localhost"
+2022/09/02 20:25:54 [error] 30#30: *9 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught RedisException: Connection refused in /var/www/html/redis.php:14
+Stack trace:
+#0 /var/www/html/redis.php(14): Redis->connect('redis', 6379)
+#1 {main}
+  thrown in /var/www/html/redis.php on line 14" while reading response header from upstream, client: 172.19.0.1, server: localhost, request: "GET /redis.php HTTP/1.1", upstream: "fastcgi://172.19.0.2:9000", host: "localhost"
+2022/09/02 20:25:54 [error] 30#30: *9 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught RedisException: Connection refused in /var/www/html/redis.php:14
+Stack trace:
+#0 /var/www/html/redis.php(14): Redis->connect('redis', 6379)
+#1 {main}
+  thrown in /var/www/html/redis.php on line 14" while reading response header from upstream, client: 172.19.0.1, server: localhost, request: "GET /redis.php HTTP/1.1", upstream: "fastcgi://172.19.0.2:9000", host: "localhost"
+2022/09/02 20:25:54 [error] 30#30: *9 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught RedisException: Connection refused in /var/www/html/redis.php:14
+Stack trace:
+#0 /var/www/html/redis.php(14): Redis->connect('redis', 6379)
+#1 {main}
+  thrown in /var/www/html/redis.php on line 14" while reading response header from upstream, client: 172.19.0.1, server: localhost, request: "GET /redis.php HTTP/1.1", upstream: "fastcgi://172.19.0.2:9000", host: "localhost"
+2022/09/02 20:25:54 [error] 30#30: *9 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught RedisException: Connection refused in /var/www/html/redis.php:14
+Stack trace:
+#0 /var/www/html/redis.php(14): Redis->connect('redis', 6379)
+#1 {main}
+  thrown in /var/www/html/redis.php on line 14" while reading response header from upstream, client: 172.19.0.1, server: localhost, request: "GET /redis.php HTTP/1.1", upstream: "fastcgi://172.19.0.2:9000", host: "localhost"
+2022/09/02 20:25:54 [error] 30#30: *9 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught RedisException: Connection refused in /var/www/html/redis.php:14
+Stack trace:
+#0 /var/www/html/redis.php(14): Redis->connect('redis', 6379)
+#1 {main}
+  thrown in /var/www/html/redis.php on line 14" while reading response header from upstream, client: 172.19.0.1, server: localhost, request: "GET /redis.php HTTP/1.1", upstream: "fastcgi://172.19.0.2:9000", host: "localhost"
+2022/09/02 20:26:00 [error] 30#30: *9 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught RedisException: Connection refused in /var/www/html/redis.php:14
+Stack trace:
+#0 /var/www/html/redis.php(14): Redis->connect('redis', 6379)
+#1 {main}
+  thrown in /var/www/html/redis.php on line 14" while reading response header from upstream, client: 172.19.0.1, server: localhost, request: "GET /redis.php HTTP/1.1", upstream: "fastcgi://172.19.0.2:9000", host: "localhost"
+2022/09/02 20:26:23 [error] 30#30: *9 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught RedisException: Connection refused in /var/www/html/redis.php:14
+Stack trace:
+#0 /var/www/html/redis.php(14): Redis->connect('127.0.0.1', 6379)
+#1 {main}
+  thrown in /var/www/html/redis.php on line 14" while reading response header from upstream, client: 172.19.0.1, server: localhost, request: "GET /redis.php HTTP/1.1", upstream: "fastcgi://172.19.0.2:9000", host: "localhost"
+2022/09/02 20:26:39 [error] 30#30: *1 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught RedisException: Connection refused in /var/www/html/redis.php:14
+Stack trace:
+#0 /var/www/html/redis.php(14): Redis->connect('127.0.0.1', 6379)
+#1 {main}
+  thrown in /var/www/html/redis.php on line 14" while reading response header from upstream, client: 172.19.0.1, server: localhost, request: "GET /redis.php HTTP/1.1", upstream: "fastcgi://172.19.0.2:9000", host: "localhost"
+2022/09/02 20:26:40 [error] 30#30: *1 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught RedisException: Connection refused in /var/www/html/redis.php:14
+Stack trace:
+#0 /var/www/html/redis.php(14): Redis->connect('127.0.0.1', 6379)
+#1 {main}
+  thrown in /var/www/html/redis.php on line 14" while reading response header from upstream, client: 172.19.0.1, server: localhost, request: "GET /redis.php HTTP/1.1", upstream: "fastcgi://172.19.0.2:9000", host: "localhost"
+2022/09/02 20:27:58 [error] 30#30: *4 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught RedisException: Connection refused in /var/www/html/redis.php:14
+Stack trace:
+#0 /var/www/html/redis.php(14): Redis->connect('127.0.0.1', 6379)
+#1 {main}
+  thrown in /var/www/html/redis.php on line 14" while reading response header from upstream, client: 172.19.0.1, server: localhost, request: "GET /redis.php HTTP/1.1", upstream: "fastcgi://172.19.0.2:9000", host: "localhost"
+2022/09/02 20:28:03 [error] 30#30: *4 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught RedisException: Connection refused in /var/www/html/redis.php:14
+Stack trace:
+#0 /var/www/html/redis.php(14): Redis->connect('127.0.0.1', 6379)
+#1 {main}
+  thrown in /var/www/html/redis.php on line 14" while reading response header from upstream, client: 172.19.0.1, server: localhost, request: "GET /redis.php HTTP/1.1", upstream: "fastcgi://172.19.0.2:9000", host: "localhost"
+2022/09/02 20:29:05 [error] 30#30: *4 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught RedisException: Connection refused in /var/www/html/redis.php:14
+Stack trace:
+#0 /var/www/html/redis.php(14): Redis->connect('127.0.0.1', 6379)
+#1 {main}
+  thrown in /var/www/html/redis.php on line 14" while reading response header from upstream, client: 172.19.0.1, server: localhost, request: "GET /redis.php HTTP/1.1", upstream: "fastcgi://172.19.0.2:9000", host: "localhost"
+2022/09/02 20:29:34 [error] 30#30: *4 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught RedisException: Connection refused in /var/www/html/redis.php:14
+Stack trace:
+#0 /var/www/html/redis.php(14): Redis->connect('127.0.0.1', 6379)
+#1 {main}
+  thrown in /var/www/html/redis.php on line 14" while reading response header from upstream, client: 172.19.0.1, server: localhost, request: "GET /redis.php HTTP/1.1", upstream: "fastcgi://172.19.0.2:9000", host: "localhost"
+2022/09/02 20:31:24 [error] 30#30: *10 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught RedisException: Connection refused in /var/www/html/redis.php:4
+Stack trace:
+#0 /var/www/html/redis.php(4): Redis->connect('127.0.0.1', 6379)
+#1 {main}
+  thrown in /var/www/html/redis.php on line 4" while reading response header from upstream, client: 172.19.0.1, server: localhost, request: "GET /redis.php HTTP/1.1", upstream: "fastcgi://172.19.0.2:9000", host: "localhost"
+2022/09/02 20:33:44 [error] 30#30: *12 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught RedisException: Connection refused in /var/www/html/redis.php:4
+Stack trace:
+#0 /var/www/html/redis.php(4): Redis->connect('127.0.0.1', 6379)
+#1 {main}
+  thrown in /var/www/html/redis.php on line 4" while reading response header from upstream, client: 172.19.0.1, server: localhost, request: "GET /redis.php HTTP/1.1", upstream: "fastcgi://172.19.0.2:9000", host: "localhost"
+2022/09/02 20:33:55 [error] 30#30: *12 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught RedisException: Connection refused in /var/www/html/redis.php:4
+Stack trace:
+#0 /var/www/html/redis.php(4): Redis->connect('127.0.0.1', 6379)
+#1 {main}
+  thrown in /var/www/html/redis.php on line 4" while reading response header from upstream, client: 172.19.0.1, server: localhost, request: "GET /redis.php HTTP/1.1", upstream: "fastcgi://172.19.0.2:9000", host: "localhost"
+2022/09/02 20:40:16 [error] 30#30: *1 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught RedisException: Connection refused in /var/www/html/redis.php:4
+Stack trace:
+#0 /var/www/html/redis.php(4): Redis->connect('redis', 6379)
+#1 {main}
+  thrown in /var/www/html/redis.php on line 4" while reading response header from upstream, client: 172.19.0.1, server: localhost, request: "GET /redis.php HTTP/1.1", upstream: "fastcgi://172.19.0.2:9000", host: "localhost"
+2022/09/02 20:40:17 [error] 30#30: *1 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught RedisException: Connection refused in /var/www/html/redis.php:4
+Stack trace:
+#0 /var/www/html/redis.php(4): Redis->connect('redis', 6379)
+#1 {main}
+  thrown in /var/www/html/redis.php on line 4" while reading response header from upstream, client: 172.19.0.1, server: localhost, request: "GET /redis.php HTTP/1.1", upstream: "fastcgi://172.19.0.2:9000", host: "localhost"
+2022/09/02 20:40:18 [error] 30#30: *1 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught RedisException: Connection refused in /var/www/html/redis.php:4
+Stack trace:
+#0 /var/www/html/redis.php(4): Redis->connect('redis', 6379)
+#1 {main}
+  thrown in /var/www/html/redis.php on line 4" while reading response header from upstream, client: 172.19.0.1, server: localhost, request: "GET /redis.php HTTP/1.1", upstream: "fastcgi://172.19.0.2:9000", host: "localhost"
+2022/09/02 20:42:50 [error] 30#30: *5 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught RedisException: Connection refused in /var/www/html/redis.php:4
+Stack trace:
+#0 /var/www/html/redis.php(4): Redis->connect('redis', 6379)
+#1 {main}
+  thrown in /var/www/html/redis.php on line 4" while reading response header from upstream, client: 172.19.0.1, server: localhost, request: "GET /redis.php HTTP/1.1", upstream: "fastcgi://172.19.0.2:9000", host: "localhost"
+2022/09/02 20:42:50 [error] 30#30: *5 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught RedisException: Connection refused in /var/www/html/redis.php:4
+Stack trace:
+#0 /var/www/html/redis.php(4): Redis->connect('redis', 6379)
+#1 {main}
+  thrown in /var/www/html/redis.php on line 4" while reading response header from upstream, client: 172.19.0.1, server: localhost, request: "GET /redis.php HTTP/1.1", upstream: "fastcgi://172.19.0.2:9000", host: "localhost"
+2022/09/02 20:42:51 [error] 30#30: *5 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught RedisException: Connection refused in /var/www/html/redis.php:4
+Stack trace:
+#0 /var/www/html/redis.php(4): Redis->connect('redis', 6379)
+#1 {main}
+  thrown in /var/www/html/redis.php on line 4" while reading response header from upstream, client: 172.19.0.1, server: localhost, request: "GET /redis.php HTTP/1.1", upstream: "fastcgi://172.19.0.2:9000", host: "localhost"
+2022/09/02 20:42:51 [error] 30#30: *5 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught RedisException: Connection refused in /var/www/html/redis.php:4
+Stack trace:
+#0 /var/www/html/redis.php(4): Redis->connect('redis', 6379)
+#1 {main}
+  thrown in /var/www/html/redis.php on line 4" while reading response header from upstream, client: 172.19.0.1, server: localhost, request: "GET /redis.php HTTP/1.1", upstream: "fastcgi://172.19.0.2:9000", host: "localhost"
+2022/09/02 20:42:51 [error] 30#30: *5 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught RedisException: Connection refused in /var/www/html/redis.php:4
+Stack trace:
+#0 /var/www/html/redis.php(4): Redis->connect('redis', 6379)
+#1 {main}
+  thrown in /var/www/html/redis.php on line 4" while reading response header from upstream, client: 172.19.0.1, server: localhost, request: "GET /redis.php HTTP/1.1", upstream: "fastcgi://172.19.0.2:9000", host: "localhost"
+2022/09/02 20:42:51 [error] 30#30: *5 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught RedisException: Connection refused in /var/www/html/redis.php:4
+Stack trace:
+#0 /var/www/html/redis.php(4): Redis->connect('redis', 6379)
+#1 {main}
+  thrown in /var/www/html/redis.php on line 4" while reading response header from upstream, client: 172.19.0.1, server: localhost, request: "GET /redis.php HTTP/1.1", upstream: "fastcgi://172.19.0.2:9000", host: "localhost"
+2022/09/02 20:43:52 [error] 30#30: *1 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught RedisException: Connection refused in /var/www/html/redis.php:4
+Stack trace:
+#0 /var/www/html/redis.php(4): Redis->connect('redis', 6379)
+#1 {main}
+  thrown in /var/www/html/redis.php on line 4" while reading response header from upstream, client: 172.19.0.1, server: localhost, request: "GET /redis.php HTTP/1.1", upstream: "fastcgi://172.19.0.2:9000", host: "localhost"
+2022/09/02 20:43:53 [error] 30#30: *1 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught RedisException: Connection refused in /var/www/html/redis.php:4
+Stack trace:
+#0 /var/www/html/redis.php(4): Redis->connect('redis', 6379)
+#1 {main}
+  thrown in /var/www/html/redis.php on line 4" while reading response header from upstream, client: 172.19.0.1, server: localhost, request: "GET /redis.php HTTP/1.1", upstream: "fastcgi://172.19.0.2:9000", host: "localhost"
+2022/09/02 20:43:53 [error] 30#30: *1 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught RedisException: Connection refused in /var/www/html/redis.php:4
+Stack trace:
+#0 /var/www/html/redis.php(4): Redis->connect('redis', 6379)
+#1 {main}
+  thrown in /var/www/html/redis.php on line 4" while reading response header from upstream, client: 172.19.0.1, server: localhost, request: "GET /redis.php HTTP/1.1", upstream: "fastcgi://172.19.0.2:9000", host: "localhost"
+2022/09/02 20:43:53 [error] 30#30: *1 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught RedisException: Connection refused in /var/www/html/redis.php:4
+Stack trace:
+#0 /var/www/html/redis.php(4): Redis->connect('redis', 6379)
+#1 {main}
+  thrown in /var/www/html/redis.php on line 4" while reading response header from upstream, client: 172.19.0.1, server: localhost, request: "GET /redis.php HTTP/1.1", upstream: "fastcgi://172.19.0.2:9000", host: "localhost"
+2022/09/02 20:43:54 [error] 30#30: *1 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught RedisException: Connection refused in /var/www/html/redis.php:4
+Stack trace:
+#0 /var/www/html/redis.php(4): Redis->connect('redis', 6379)
+#1 {main}
+  thrown in /var/www/html/redis.php on line 4" while reading response header from upstream, client: 172.19.0.1, server: localhost, request: "GET /redis.php HTTP/1.1", upstream: "fastcgi://172.19.0.2:9000", host: "localhost"
+2022/09/02 20:43:54 [error] 30#30: *1 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught RedisException: Connection refused in /var/www/html/redis.php:4
+Stack trace:
+#0 /var/www/html/redis.php(4): Redis->connect('redis', 6379)
+#1 {main}
+  thrown in /var/www/html/redis.php on line 4" while reading response header from upstream, client: 172.19.0.1, server: localhost, request: "GET /redis.php HTTP/1.1", upstream: "fastcgi://172.19.0.2:9000", host: "localhost"
+2022/09/02 20:50:29 [error] 30#30: *8 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught RedisException: Connection refused in /var/www/html/redis.php:4
+Stack trace:
+#0 /var/www/html/redis.php(4): Redis->connect('redis', 6379)
+#1 {main}
+  thrown in /var/www/html/redis.php on line 4" while reading response header from upstream, client: 172.19.0.1, server: localhost, request: "GET /redis.php HTTP/1.1", upstream: "fastcgi://172.19.0.2:9000", host: "localhost"
+2022/09/02 20:50:30 [error] 30#30: *8 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught RedisException: Connection refused in /var/www/html/redis.php:4
+Stack trace:
+#0 /var/www/html/redis.php(4): Redis->connect('redis', 6379)
+#1 {main}
+  thrown in /var/www/html/redis.php on line 4" while reading response header from upstream, client: 172.19.0.1, server: localhost, request: "GET /redis.php HTTP/1.1", upstream: "fastcgi://172.19.0.2:9000", host: "localhost"
+2022/09/02 20:50:31 [error] 30#30: *8 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught RedisException: Connection refused in /var/www/html/redis.php:4
+Stack trace:
+#0 /var/www/html/redis.php(4): Redis->connect('redis', 6379)
+#1 {main}
+  thrown in /var/www/html/redis.php on line 4" while reading response header from upstream, client: 172.19.0.1, server: localhost, request: "GET /redis.php HTTP/1.1", upstream: "fastcgi://172.19.0.2:9000", host: "localhost"
+2022/09/02 20:51:35 [error] 30#30: *8 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught RedisException: Connection refused in /var/www/html/redis.php:4
+Stack trace:
+#0 /var/www/html/redis.php(4): Redis->connect('redis', 6379)
+#1 {main}
+  thrown in /var/www/html/redis.php on line 4" while reading response header from upstream, client: 172.19.0.1, server: localhost, request: "GET /redis.php HTTP/1.1", upstream: "fastcgi://172.19.0.2:9000", host: "localhost"
+2022/09/02 20:51:36 [error] 30#30: *8 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught RedisException: Connection refused in /var/www/html/redis.php:4
+Stack trace:
+#0 /var/www/html/redis.php(4): Redis->connect('redis', 6379)
+#1 {main}
+  thrown in /var/www/html/redis.php on line 4" while reading response header from upstream, client: 172.19.0.1, server: localhost, request: "GET /redis.php HTTP/1.1", upstream: "fastcgi://172.19.0.2:9000", host: "localhost"
+2022/09/02 20:59:11 [error] 30#30: *14 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught RedisException: Connection refused in /var/www/html/redis.php:4
+Stack trace:
+#0 /var/www/html/redis.php(4): Redis->connect('redis', 6379)
+#1 {main}
+  thrown in /var/www/html/redis.php on line 4" while reading response header from upstream, client: 172.19.0.1, server: localhost, request: "GET /redis.php HTTP/1.1", upstream: "fastcgi://172.19.0.2:9000", host: "localhost"
+2022/09/02 20:59:14 [error] 30#30: *14 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught RedisException: Connection refused in /var/www/html/redis.php:4
+Stack trace:
+#0 /var/www/html/redis.php(4): Redis->connect('redis', 6379)
+#1 {main}
+  thrown in /var/www/html/redis.php on line 4" while reading response header from upstream, client: 172.19.0.1, server: localhost, request: "GET /redis.php HTTP/1.1", upstream: "fastcgi://172.19.0.2:9000", host: "localhost"
+2022/09/02 20:59:15 [error] 30#30: *14 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught RedisException: Connection refused in /var/www/html/redis.php:4
+Stack trace:
+#0 /var/www/html/redis.php(4): Redis->connect('redis', 6379)
+#1 {main}
+  thrown in /var/www/html/redis.php on line 4" while reading response header from upstream, client: 172.19.0.1, server: localhost, request: "GET /redis.php HTTP/1.1", upstream: "fastcgi://172.19.0.2:9000", host: "localhost"
+2022/09/02 20:59:16 [error] 30#30: *14 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught RedisException: Connection refused in /var/www/html/redis.php:4
+Stack trace:
+#0 /var/www/html/redis.php(4): Redis->connect('redis', 6379)
+#1 {main}
+  thrown in /var/www/html/redis.php on line 4" while reading response header from upstream, client: 172.19.0.1, server: localhost, request: "GET /redis.php HTTP/1.1", upstream: "fastcgi://172.19.0.2:9000", host: "localhost"

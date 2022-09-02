@@ -1,0 +1,20 @@
+1:C 02 Sep 2022 21:03:33.149 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+1:C 02 Sep 2022 21:03:33.156 # Redis version=5.0.5, bits=64, commit=00000000, modified=0, pid=1, just started
+1:C 02 Sep 2022 21:03:33.160 # Configuration loaded
+1:M 02 Sep 2022 21:03:33.194 * Running mode=standalone, port=6379.
+1:M 02 Sep 2022 21:03:33.202 # Server initialized
+1:M 02 Sep 2022 21:03:33.206 # WARNING you have Transparent Huge Pages (THP) support enabled in your kernel. This will create latency and memory usage issues with Redis. To fix this issue run the command 'echo never > /sys/kernel/mm/transparent_hugepage/enabled' as root, and add it to your /etc/rc.local in order to retain the setting after a reboot. Redis must be restarted after THP is disabled.
+1:M 02 Sep 2022 21:03:33.211 * Ready to accept connections
+1:signal-handler (1662124394) Received SIGTERM scheduling shutdown...
+1:M 02 Sep 2022 21:13:14.307 # User requested shutdown...
+1:M 02 Sep 2022 21:13:14.313 * Calling fsync() on the AOF file.
+1:M 02 Sep 2022 21:13:14.316 * Removing the pid file.
+1:M 02 Sep 2022 21:13:14.320 # Redis is now ready to exit, bye bye...
+1:C 02 Sep 2022 21:13:19.564 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+1:C 02 Sep 2022 21:13:19.568 # Redis version=5.0.5, bits=64, commit=00000000, modified=0, pid=1, just started
+1:C 02 Sep 2022 21:13:19.574 # Configuration loaded
+1:M 02 Sep 2022 21:13:19.608 * Running mode=standalone, port=6379.
+1:M 02 Sep 2022 21:13:19.615 # Server initialized
+1:M 02 Sep 2022 21:13:19.619 # WARNING you have Transparent Huge Pages (THP) support enabled in your kernel. This will create latency and memory usage issues with Redis. To fix this issue run the command 'echo never > /sys/kernel/mm/transparent_hugepage/enabled' as root, and add it to your /etc/rc.local in order to retain the setting after a reboot. Redis must be restarted after THP is disabled.
+1:M 02 Sep 2022 21:13:19.632 * DB loaded from append only file: 0.007 seconds
+1:M 02 Sep 2022 21:13:19.636 * Ready to accept connections

@@ -1,0 +1,102 @@
+version: '3'
+# 定义四个服务nginx,php,mysql,redis
+# chmod 777 redis/redis.log
+# chmod -R 777 redis/data
+# chmod -R 777 mysql/data
+services:
+    php:
+        container_name: "compose-php74"
+        build: ./php/extension
+        image: php:7.4
+        restart: always
+        ports:
+            - "9000:9000"
+        volumes:
+            - ./nginx/www:/var/www/html  # 项目目录   
+            - ./php/log:/var/log/php     # 日志文件映射   
+            - ./php/etc/php.ini:/usr/local/etc/php/php.ini
+            - ./php/etc/php-fpm.conf:/usr/local/etc/php-fpm.conf    # 映射配置文件
+            - ./php/etc/php-fpm.d:/usr/local/etc/php-fpm.d
+        stdin_open: true
+        tty: true   #这两条是防止启动php失败
+        depends_on:
+            - "mysql"
+            - "redis"
+        links:
+            - "mysql"  # 链接mysql服务
+        networks:
+            - frontend
+            - backend
+        environment:
+            - TZ=Asia/Shanghai # 设置时区
+    nginx:
+        # 容器名称
+        container_name: "compose-nginx"
+        image: nginx:latest
+        # nginx意外退出时自动重启
+        restart: always
+        # 端口映射
+        ports:
+            - "80:80"
+            - "443:443"
+        environment:
+            - TZ=Asia/Shanghai
+        # 依赖关系 先跑php
+        depends_on:
+            - "php"      # nginx必须依赖php的，所以要用depends_on
+        links:
+            - "php:compose-php74"  # 链接php
+        # 数据卷
+        volumes:
+            - ./nginx/ssl/:/etc/nginx/ssl/
+            - ./nginx/conf.d:/etc/nginx/conf.d   # 子配置文件相当vhosts # 映射主机./conf.d目录到容器/etc/nginx/conf.d目录
+            - ./nginx/nginx.conf:/etc/nginx/nginx.conf  # 主配置文件
+            - ./nginx/www:/usr/share/nginx/html  # 项目目录
+            - ./nginx/log:/var/log/nginx    # 日志
+        networks:
+            - frontend
+    mysql:
+        container_name: "compose-mysql57"
+        image: mysql:5.7
+        ports:
+            - "3306:3306"
+        volumes:
+            - $PWD/mysql/data:/var/lib/mysql    # 数据目录
+            - $PWD/mysql/conf:/etc/mysql/conf.d # 配置文件
+            - $PWD/mysql/logs:/data/mysql/logs  # 日志
+#             - ./mysql/my.cnf:/etc/my.cnf
+        restart: always
+        platform: linux/x86_64
+        # 环境变量
+        environment:
+            - TZ=Asia/Shanghai # 设置时区
+            # mysql密码
+            - MYSQL_ROOT_PASSWORD=123456    # 初始化密码
+        networks:
+            - backend
+    redis:
+        # 指定镜像
+        container_name: "compose-redis5"
+        build: ./redis
+        restart: always
+        ports:
+        # 端口映射
+            - 6379:6379
+        volumes:
+        # 目录映射
+            - ./redis/redis.conf/:/usr/local/redis/redis.conf
+            - ./redis/data:/usr/local/redis/data
+            - ./redis/redis.log:/usr/local/redis/redis.log
+#         command:
+#          # 执行的命令
+#           redis-server /usr/local/etc/redis/redis.conf --requirepass 123456  // 启动redis命令
+        environment:
+            - TZ=Asia/Shanghai # 设置时区
+            # redis如果不在同一网段，会出现不能访问的问题
+        networks:
+            - backend
+                
+networks:
+  frontend:
+  backend:
+      
