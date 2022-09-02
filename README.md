@@ -3,6 +3,9 @@
 #### 介绍
 docker-compose搭建PHP7.4（含扩展）+ MySQL5.7 + nginx + redis5.1 + swoole
 
+gitee地址：https://gitee.com/kingslove/docker_compose_lnmp
+GitHub地址: https://github.com/kingsfeng/docker_compose_lnmp
+
 #### 软件架构
 docker-compose搭建LNMP环境映射文件目录，clone到指定composer_lnmp74目录，可以一键安装
 
