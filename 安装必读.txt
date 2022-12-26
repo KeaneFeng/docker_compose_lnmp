@@ -1,4 +1,4 @@
-ÏÈÔËĞĞ
+//å…ˆè¿è¡Œ
 docker-compose build
-ÔÙÖ´ĞĞ
+//åœ¨æ‰§è¡Œ
 docker-compose up -d
